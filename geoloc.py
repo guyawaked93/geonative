@@ -115,7 +115,7 @@ def update_map(selected_estado, selected_zoom):
     fig.update_traces(marker=dict(size=8))  # Ajustar o tamanho dos marcadores
 
     fig.update_layout(
-        mapbox_style="open-street-map",
+        mapbox_style="carto-positron",
         title=f"Escolas no Estado {selected_estado}",
         title_x=0.5,
         margin={"r":0,"t":30,"l":0,"b":0},
